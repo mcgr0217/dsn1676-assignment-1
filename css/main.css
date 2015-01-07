@@ -11,7 +11,6 @@ html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
-    
     background-color: #e8e5da;
 }
 
@@ -44,4 +43,11 @@ h2 {
     background-position: right bottom, left top;
     background-repeat: no-repeat;
     background-size: 32px 32px, 16px 16px;
+}
+
+.middle {
+    background-color: #87714f;
+    padding: 1rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
 }
