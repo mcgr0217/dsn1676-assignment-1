@@ -13,13 +13,35 @@ html {
 	text-size-adjust: 100%;
     
     background-color: #e8e5da;
-    color: #fff;
 }
 
 *, *::before, *:after {
     box-sizing: inherit;
 }
 
-h1 {
+h1, 
+h2 {
     text-align: center;
+}
+
+.size {
+	width: 70px; 
+	height: 60px;
+}
+
+.masthead {
+    background: transparent url(../images/masthead-bg.png") repeat left center;
+    text-align: center;
+}
+
+.img-flex {
+    display: block;
+    width: 100%;
+}
+
+.current {
+    background-image: url(../assets/frame.svg);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat;
+    background-size: 32px 32px, 16px 16px;
 }
