@@ -26,10 +26,11 @@ h2 {
 .size {
 	width: 70px; 
 	height: 60px;
+    text-align: center;
 }
 
 .masthead {
-    background: transparent url(../images/masthead-bg.png") repeat left center;
+    background: url(../images/masthead-bg.png) repeat left center;
     text-align: center;
 }
 
@@ -50,4 +51,10 @@ h2 {
     padding: 1rem;
     margin-left: .5rem;
     margin-right: .5rem;
+    color: #fff;
+}
+
+.title {
+    background-color: #e8e5da;
+    display: inline-block;
 }
