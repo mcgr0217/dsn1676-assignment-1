@@ -31,6 +31,18 @@ h2 {
 .masthead {
     background: url(../images/masthead-bg.png) repeat left center;
     text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    margin: 0 0.2em 0 0;
+    width:1.2em;
+    vertical-align: middle;
+}
+
+.weight {
+    font-weight: 100;
 }
 
 .img-flex {
@@ -39,7 +51,7 @@ h2 {
 }
 
 .current {
-    border-image: url(../images/frame.svg) 20 20 20 20 stretch stretch;
+    border-image: url(../images/frame.svg) 25 25 25 25 stretch stretch;
     border-width: 20px 20px 20px 20px;
 }
 
@@ -54,5 +66,9 @@ h2 {
 .title {
     background-color: #e8e5da;
     display: inline-block;
-    text-shadow: 3px 3px 0 #fff;
+    text-shadow: 2px 3px 0 #c0bfbf;
+}
+
+.grid {
+    text-align: center;
 }
