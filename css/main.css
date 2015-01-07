@@ -24,9 +24,8 @@ h2 {
 }
 
 .size {
-	width: 70px; 
-	height: 60px;
-    text-align: center;
+	width: 4em;
+    margin-bottom: .5em;
 }
 
 .masthead {
@@ -40,10 +39,8 @@ h2 {
 }
 
 .current {
-    background-image: url(../assets/frame.svg);
-    background-position: right bottom, left top;
-    background-repeat: no-repeat;
-    background-size: 32px 32px, 16px 16px;
+    border-image: url(../images/frame.svg) 20 20 20 20 stretch stretch;
+    border-width: 20px 20px 20px 20px;
 }
 
 .middle {
@@ -57,4 +54,5 @@ h2 {
 .title {
     background-color: #e8e5da;
     display: inline-block;
+    text-shadow: 3px 3px 0 #fff;
 }
