@@ -6,7 +6,6 @@
 
 html {
     box-sizing: border-box;
-    
     -moz-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
@@ -38,7 +37,7 @@ h2 {
 
 .logo {
     margin: 0 0.2em 0 0;
-    width:1.2em;
+    width: 1.2em;
     vertical-align: middle;
 }
 
